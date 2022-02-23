@@ -1,0 +1,12 @@
+/* stylingForRushay'spage */
+
+body {
+    display:flex;
+    flex-direction: column;
+}
+
+
+.cityLists {
+    display: flex;
+}
+
