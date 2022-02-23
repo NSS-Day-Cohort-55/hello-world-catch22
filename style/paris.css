@@ -1,0 +1,19 @@
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.allLists {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
