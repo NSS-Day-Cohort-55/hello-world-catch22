@@ -6,6 +6,7 @@
 .allLists {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 ul {
@@ -13,7 +14,11 @@ ul {
 }
 
 .lists {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 50px;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
 }
