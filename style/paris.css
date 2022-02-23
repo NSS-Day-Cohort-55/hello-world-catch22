@@ -1,0 +1,24 @@
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.allLists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.lists {
+    background-color: antiquewhite;
+    padding: 50px;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+}
