@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Shippori+Antique&display=swap');
 
+/* #eat{
+    text-align: center;
+} */
 
+body {
+    margin:0;
+    padding: 0;
+    /* background-color: aliceblue; */
+    background-color: #9fd2f0;
+}
 
 .fit {
     max-height: 7em;
@@ -23,7 +32,6 @@ justify-content: center;
 .header { 
         display: flex;
         justify-content: space-evenly;
-      
         background-color:#7EA3CC;
       
 }
@@ -33,9 +41,8 @@ justify-content: center;
         max-width: 100px;
         text-align: center;
         padding: 5px; 
-        
         background-color: #c8d8e4;
-         border-radius: 15px;  
+        border-radius: 15px;  
         margin: 1em;
         font-family: 'Fira Sans', sans-serif;
        
@@ -72,10 +79,15 @@ img{
     align-items: left;
 }
 
+/*for the Paris page css*/
+.lists {
+    list-style-type: none;
+}
+
 .content__cards {
     flex: 1;
-    padding: 5em;
-    background-color: #CCAD8F;
+    padding: 2em 1.5em;
+    background-color: #ccad8f;
     font-family: 'Fira Sans', sans-serif;
     border-radius: 25px;
     margin: 5px;
@@ -100,6 +112,14 @@ img{
     padding-bottom: 10px;
 }
 
+.content_titleMain {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
 footer {
     background-color: #B3001B;
     padding-top: 5px;
@@ -107,5 +127,4 @@ footer {
     padding-left: 15px;
     margin: 0;
     font-size: 15px;
-
 }
