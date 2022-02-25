@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Shippori+Antique&display=swap');
 
+/* #eat{
+    text-align: center;
+} */
 
+body {
+    margin:0;
+    padding: 0;
+    /* background-color: aliceblue; */
+    background-color: #9fd2f0;
+}
 
 .fit {
     max-height: 7em;
@@ -33,9 +42,8 @@ justify-content: center;
         max-width: 100px;
         text-align: center;
         padding: 5px; 
-        
         background-color: #c8d8e4;
-         border-radius: 15px;  
+        border-radius: 15px;  
         margin: 1em;
         font-family: 'Fira Sans', sans-serif;
        
@@ -57,6 +65,10 @@ img{
     width: 100%;
 }
 
+#punamImg {
+    height: 500px;
+}
+
 .countryName {
     background-color: #7EA3CC;
     padding-top: 10px;
@@ -70,6 +82,11 @@ img{
     display: flex;
     justify-content: space-evenly;
     align-items: left;
+}
+
+/*for the Paris page css*/
+.lists {
+    list-style-type: none;
 }
 
 .content__cards {
@@ -96,6 +113,14 @@ img{
     font-weight: bold;
     text-decoration: underline;
     text-align: left;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.content_titleMain {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
     font-size: 30px;
     padding-bottom: 10px;
 }
