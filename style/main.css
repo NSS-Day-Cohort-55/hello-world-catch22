@@ -64,6 +64,10 @@ img{
     width: 100%;
 }
 
+#punamImg {
+    height: 500px;
+}
+
 .countryName {
     background-color: #7EA3CC;
     padding-top: 10px;
